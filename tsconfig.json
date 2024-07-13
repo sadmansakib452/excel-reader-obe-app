@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/UsersTable.jsx", "actions/users.js", "app/layout.jsx", "app/page.jsx", "lib/db.js", "utils/datatoJson.jsx"],
   "exclude": ["node_modules"]
 }
